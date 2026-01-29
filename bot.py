@@ -36,3 +36,4 @@ if halts:
             send_telegram(f"🚨 <b>NEW HALT: {sym}</b>\nTime: {tm}\nReason: {reason}")
 else:
     print("No active halts found right now.")
+    
